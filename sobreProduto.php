@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sobre.css">
     <title>Apresentação</title>
 </head>
 <body>
@@ -11,7 +12,7 @@
     </header>
 
     <main>
-        <section class = "apresntacao">
+        <section class = "apresentacao">
             <h2>Sobre o projeto</h2>
 
             <p>Este projeto tem como finalidade criar um sistema de pedidos para facilitar o atendimento e a organização de restaurantes e lanchonetes.</p>
@@ -58,6 +59,8 @@
                 <li><a href="">Deivid</a></li>
             </ul>
         </section>
+
+        <a href="index.php" class = "btn-voltar">Voltar para pagina inicial</a>
     </main>
 </body>
 </html>
