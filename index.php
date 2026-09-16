@@ -21,7 +21,7 @@
     <main>
         <section class = "projeto">
             <h2>Conheça nosso projeto</h2>
-            <p><strong>Pedios Já</strong></p>
+            <p><strong>Pedidos Já</strong></p>
 
             <p>Um sistema desenvolvido para facilitar o gerenciamento de pedidos, tornando o atendimento mais rápido e organizado.</p>
 
