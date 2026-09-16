@@ -11,7 +11,7 @@
         <h1>Membros</h1>
         <nav>
             <ul>
-                <li><a href="">Deivid</a>
+                <li><a href="Curriculo_Deivid.php">Deivid</a>
                 <li><a href="curriculoVinicius.php">Vinicius</a></li>
                 <li> <a href="Curriculo_Vitor.php">Vitor</a></li></li>
             </ul>
