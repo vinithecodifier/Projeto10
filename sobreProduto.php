@@ -56,7 +56,7 @@
             <ul>
                 <li><a href="curriculoVinicius.php">Vinicius Paulino de Lima</a></li>
                 <li><a href="Curriculo_Vitor.php">Vitor Diogo</a></li>
-                <li><a href="">Deivid</a></li>
+                <li><a href="Curriculo_Deivid.php">Deivid</a></li>
             </ul>
         </section>
 
