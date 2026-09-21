@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <h1 class="mb-0 mt-2 ">Bistrot Chez Rémy</h1>
         <p class="mt-0">Cardápio de mesa</p>
         <div>
@@ -40,15 +40,15 @@
         </ul>
     </header>
 
-    <main>
+    <main class="container">
         <div class="tab-content" id="myTabContent">
 
-            <!-- ENTRADAS -->
+            <!-- PRATOS -->
             <div class="tab-pane fade show active" id="pratos-tab-pane" role="tabpanel" aria-labelledby="pratos-tab"
                 tabindex="0">
 
                 <div class="py-3 border-bottom">
-                    <div class="text-uppercase fw-bold small mb-2">Praatos</div>
+                    <div class="text-uppercase fw-bold small mb-2">Pratos</div>
 
                     <div class="d-flex align-items-baseline">
                         <span class="fs-4">Contra filé com ovo</span>
@@ -57,12 +57,12 @@
                         <span class="fs-3 text-secondary">R$ 25,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Contra filé com ovo acompanhado de batatas fritas</p>
+                    <p class="text-secondary small mt-2 mb-2">Contra filé com ovo acompanhado de batatas fritas</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -74,12 +74,12 @@
                         <span class="fs-3 text-secondary">R$ 20,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Filé de frango que pode acompnahr ovo ou batatas</p>
+                    <p class="text-secondary small mt-2 mb-2">Filé de frango que pode acompanhar ovo ou batatas</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -91,13 +91,13 @@
                         <span class="fs-3 text-secondary">R$ 28,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Filé empanado coberto com molho de tomate e queijo
+                    <p class="text-secondary small mt-2 mb-2">Filé empanado coberto com molho de tomate e queijo
                         gratinado, acompanha arroz e batata frita</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -109,13 +109,13 @@
                         <span class="fs-3 text-secondary">R$ 35,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Picanha grelhada na brasa, acompanha arroz, farofa e
+                    <p class="text-secondary small mt-2 mb-2">Picanha grelhada na brasa, acompanha arroz, farofa e
                         vinagrete</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -127,13 +127,13 @@
                         <span class="fs-3 text-secondary">R$ 22,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Peito de frango grelhado acompanhado de legumes salteados
-                    </p>
+                    <p class="text-secondary small mt-2 mb-2">Peito de frango grelhado acompanhado de legumes
+                        salteados</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -145,13 +145,13 @@
                         <span class="fs-3 text-secondary">R$ 26,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Bife enrolado recheado com presunto e queijo, acompanha
+                    <p class="text-secondary small mt-2 mb-2">Bife enrolado recheado com presunto e queijo, acompanha
                         arroz e purê</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -163,12 +163,12 @@
                         <span class="fs-3 text-secondary">R$ 26,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Strogonoff cremoso, acompanha arroz e batata palha</p>
+                    <p class="text-secondary small mt-2 mb-2">Strogonoff cremoso, acompanha arroz e batata palha</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
 
@@ -180,48 +180,433 @@
                         <span class="fs-3 text-secondary">R$ 26,00</span>
                     </div>
 
-                    <p class="text-secondary samll mt-2 mb-2">Costela assada lentamente ao molho barbecue, acompanha
+                    <p class="text-secondary small mt-2 mb-2">Costela assada lentamente ao molho barbecue, acompanha
                         arroz e farofa</p>
 
-                    <div class="d-flex alling-items-center gap-2 mt-2">
-                        <button class="btn-stepper btn-remover">-</button>
-                        <span class="qtd" style="min-width:20px; text-alling:center;">0</span>
-                        <button class="btn-stepper btn-adicionar">+</button>
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
                     </div>
                 </div>
-
-
-
 
             </div>
 
             <!-- BEBIDAS -->
-            <div class="tab-pane fade" id="bebidas-tab-pane" role="tabpanel" aria-labelledby="bebidas-tab" tabindex="0">
-                
+            <div class="tab-pane fade" id="bebidas-tab-pane" role="tabpanel" aria-labelledby="bebidas-tab"
+                tabindex="0">
+
                 <div class="py-3 border-bottom">
-                    <div class="text-uppercase fw-bold small mb-2">bebidas</div>
+                    <div class="text-uppercase fw-bold small mb-2">Bebidas</div>
+
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Coca Lata</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 7,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Coca-Cola lata de 350 ml</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
                 </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Fanta Laranja Lata</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 7,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Fanta Laranja lata de 350 ml</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Fanta Uva Lata</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 7,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Fanta Uva lata de 350 ml</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Tubaína</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 7,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Tubaína lata de 350 ml</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Tubaína Garrafa</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 7,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Tubaína garrafa de 600 ml</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Sukita 2L</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 13,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Sukita de 2L</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Coca-Cola 1L</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 13,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Coca-Cola de 1L</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Coca-Cola 2L</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 17,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Coca-Cola de 2L</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Suco de Morango</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 10,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Suco de morango ao leite ou água</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Suco de Maracujá</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 10,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Suco de maracujá ao leite ou água</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Suco de Laranja</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 10,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Suco de laranja com água</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
             </div>
 
             <!-- LANCHES -->
-            <div class="tab-pane fade" id="lanches-tab-pane" role="tabpanel" aria-labelledby="lanches-tab" tabindex="0">
-                
+            <div class="tab-pane fade" id="lanches-tab-pane" role="tabpanel" aria-labelledby="lanches-tab"
+                tabindex="0">
 
                 <div class="py-3 border-bottom">
                     <div class="text-uppercase fw-bold small mb-2">Lanches</div>
+
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">X-Salada</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 15,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão de hambúrguer, hambúrguer bovino grelhado na
+                        chapa, queijo derretido, alface, tomate e maionese.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
                 </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">X-EGG</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 20,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão de hambúrguer, hambúrguer bovino grelhado na
+                        chapa, queijo derretido, ovo frito e maionese.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">X-Calabresa</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 20,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão de hambúrguer, calabresa fatiada e grelhada na
+                        chapa, queijo derretido e maionese.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">X-Tudo</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 25,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão de hambúrguer, hambúrguer bovino, queijo
+                        derretido, presunto, ovo frito, bacon crocante, calabresa fatiada, alface, tomate, milho,
+                        batata palha e maionese.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Misto Quente</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 10,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão de forma tostado na chapa com manteiga, presunto
+                        e queijo derretido.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Misto Quente com Ovo</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 10,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão de forma tostado na chapa com manteiga, presunto,
+                        queijo derretido e ovo frito.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Pão na chapa</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 5,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Pão francês cortado ao meio e tostado na chapa com
+                        manteiga.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
             </div>
 
             <!-- SALGADOS -->
             <div class="tab-pane fade" id="salgados-tab-pane" role="tabpanel" aria-labelledby="salgados-tab"
                 tabindex="0">
 
+                <div class="text-uppercase fw-bold small mb-2">Salgados</div>
+
                 <div class="py-3 border-bottom">
-                    <div class="text-uppercase fw-bold small mb-2">Salgados</div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Coxinha Tradicional</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 6,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Massa de batata ou farinha de trigo frita, recheada
+                        com frango desfiado temperado.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
                 </div>
-                
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Coxinha com Catupiry</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 6,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Massa de batata ou farinha de trigo frita, recheada
+                        com frango desfiado temperado e requeijão cremoso tipo Catupiry.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Enroladinho de salsicha</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 6,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Massa frita ou assada recheada com salsicha de carne
+                        bovina ou suína.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
+                <div class="py-3 border-bottom">
+                    <div class="d-flex align-items-baseline">
+                        <span class="fs-4">Pão de queijo</span>
+                        <div class="flex-grow-1 border-bottom border-dotted mx-2"
+                            style="border-style: dotted !important;"></div>
+                        <span class="fs-3 text-secondary">R$ 6,00</span>
+                    </div>
+
+                    <p class="text-secondary small mt-2 mb-2">Massa assada à base de polvilho, leite, óleo, ovos e
+                        queijo ralado.</p>
+
+                    <div class="d-flex align-items-center gap-2 mt-2">
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-remover" type="button">−</button>
+                        <span class="qtd text-center" style="min-width:24px;">0</span>
+                        <button class="btn btn-outline-secondary btn-sm rounded-circle btn-adicionar" type="button">+</button>
+                    </div>
+                </div>
+
             </div>
 
+        </div>
+
+        <div class="d-flex justify-content-end gap-2 py-4 border-top mt-3">
+            <button type="button" id="btn-limpar" class="btn btn-outline-danger">Limpar</button>
+            <button type="button" id="btn-enviar" class="btn btn-primary">Enviar pedido</button>
         </div>
     </main>
 
