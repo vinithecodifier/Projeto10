@@ -17,6 +17,8 @@
         <div>
             <label for="mesa">Mesa:</label>
             <input type="number" classn="form-control" id="mesa" min=1 placeholder="N°" class="mb-3">
+
+            <a href="gest_mesas.php" class="btn btn-primary float-end">Reservar mesas</a>
         </div>
 
         <!-- Menu de abas -->
