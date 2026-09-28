@@ -615,6 +615,42 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+        <script>
+            function adiconarEdiminuirPedidos(){
+
+                const botoesAdd = document.querySelectorAll('.btn-adicionar');
+                const botoesRemover = document.querySelectorAll('.btn-remover');
+    
+                botoesAdd.forEach(botao=>{
+                    botao.addEventListener('click', ()=>{
+                        const qtd = botao.parentElement.querySelector('.qtd');
+    
+                        let quantidade = parseInt(qtd.textContent);
+    
+                        quantidade++;
+    
+                        qtd.textContent = quantidade;
+                    });
+                });
+    
+                botoesRemover.forEach(botao =>{
+                    botao.addEventListener('click', ()=>{
+                        const qtd = botao.parentElement.querySelector('.qtd');
+    
+                        let quantidade = parseInt(qtd.textContent);
+    
+                        if(quantidade>0){
+                            quantidade--;
+                        };
+    
+                        qtd.textContent = quantidade;
+    
+                    });
+                });
+            };
+
+            adiconarEdiminuirPedidos();
+        </script>
 </body>
 
 </html>
