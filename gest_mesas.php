@@ -10,136 +10,256 @@
    <h1>Minhas Mesas</h1>
    <a href="pedidosja.php" class="btn btn-primary">Voltar para o cardápio</a>
 
-   <div class = "d-flex flex-wrap gap-3 mt-3">
-   <div class="card bg-danger" style="width: 8rem; height: 8rem;">
+  
+  <div class="d-flex flex-wrap gap-3 mt-3">
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 1</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 2</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 3</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 4</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 5</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 6</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 7</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 8</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 9</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 10</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 11</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 12</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 13</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 14</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 15</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 16</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 17</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 18</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 19</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-success" style="width:11rem; height:11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 20</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Mesa 21</h5>
+           <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
+      </div>
+    </div>
+
+
+
+    <div class="card bg-danger" style="width: 11rem; height: 11rem;">
   <div class="card-body">
-    <h5 class="card-title">Mesa 1</h5>
+    <h5 class="card-title">Mesa 22</h5>
+    <p class="card-text">
+      descrição: 
+      <br>4 pessoas
+    </p>
+    <a href="#" class="btn btn-primary">Exibir detalhes</a>
   </div>
 </div>
 
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 2</h5>
   </div>
 </div>
 
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 3</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 4</h5>
-
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 5</h5>
-
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 6</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 7</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 8</h5>
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 9</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 10</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 11</h5>
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 12</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 13</h5>
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 14</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 15</h5>
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 16</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 17</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 18</h5>
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 19</h5>
-  </div>
-</div>
-
-<div class="card bg-success" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 20</h5>
-  </div>
-</div>
-
-<div class="card bg-danger" style="width: 8rem; height: 8rem;">
-  <div class="card-body">
-    <h5 class="card-title">Mesa 21</h5>
-  </div>
-</div>
-</div>
-   
     
 
 </body>
