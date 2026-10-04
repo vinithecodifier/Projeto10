@@ -8,7 +8,7 @@
 </head>
 <body>
    <h1>Minhas Mesas</h1>
-   <a href="pedidosja.php" class="btn btn-primary">Voltar para o cardápio</a>
+   <a href="cardapio.php" class="btn btn-primary">Voltar para o cardápio</a>
 
   
   <div class="d-flex flex-wrap gap-3 mt-3">
