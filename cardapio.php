@@ -561,8 +561,8 @@
         </div>
 
         <div class="d-flex justify-content-end gap-2 py-4 border-top mt-3">
-            <button type="reset" id="btn-limpar" class="btn btn-outline-danger">Limpar</button>
-            <button type="submit" id="btn-enviar" class="btn btn-primary">Enviar pedido</button>
+            <input type="reset" id="btn-limpar" class="btn btn-outline-danger" name = "Limpar">
+            <input type="submit" id="btn-enviar" class="btn btn-primary" name = "Enviar Pedido">
         </div>
     </main>
 </form>
